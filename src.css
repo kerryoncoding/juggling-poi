@@ -11,8 +11,8 @@ body {
     display: block;
     margin: 0 auto;
     text-align: center;
-    max-width: 700px;
-    margin-top:25px;
+    max-width: 800px;
+    margin-top:50px;
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); 
 /*  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); more blueish*/
     border: 1px solid var(--primary-color);
@@ -20,13 +20,36 @@ body {
     color: var(--primary-color);
 }
 
-.clubimage {
-    max-width: 700px;
+h1 {
+    font-size: 48px;
+    color: var(--primary-color);
 }
 
-footer{
+h2 {
+    font-size: 36px;
+    color: var(--primary-color);
+}
+
+.paragraph {
+    padding: 0 25px;
+    font-size: 24px;
+    color: var(--primary-color);
+}
+
+#clubimage {
+    max-width: 800px;
+}
+
+#poi_2 {
+    max-width: 500px;
+}
+
+
+footer p {
+    font-size: 18px;
     text-align: center;
     color: white;
+    margin: 25px;
 }
 
 footer a {
