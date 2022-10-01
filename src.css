@@ -1,6 +1,7 @@
 
 :root{
-    --primary-color: #0B2241;
+    --primary-color: #132C4B;
+/*     #0B2241; */
 }
 
 body {
@@ -30,10 +31,26 @@ h2 {
     color: var(--primary-color);
 }
 
+h3 {
+    font-size: 30px;
+    color: var(--primary-color);
+    margin: 10px;
+}
+
 .paragraph {
-    padding: 0 25px;
+    padding: 0 25px 10px 25px;
     font-size: 24px;
     color: var(--primary-color);
+}
+
+.paragraph a {
+    color: #A00606;
+    text-decoration: none;
+}
+
+.paragraph a:hover {
+    color: #A00606;
+    text-decoration: underline;
 }
 
 #clubimage {
@@ -42,6 +59,7 @@ h2 {
 
 #poi_2 {
     max-width: 500px;
+    border-radius: 5px;
 }
 
 
