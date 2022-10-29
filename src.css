@@ -54,11 +54,11 @@ h3 {
 }
 
 #clubimage {
-    max-width: 800px;
+    max-width: 100%;
 }
 
 #poi_2 {
-    max-width: 500px;
+    max-width: 70%;
     border-radius: 5px;
 }
 
